@@ -2,10 +2,20 @@
   "name": "qbittorrent-api",
   "module": "src/index.ts",
   "type": "module",
+  "scripts": {
+    "lint": "oxlint",
+    "lint:fix": "oxlint --fix"
+  },
   "devDependencies": {
-    "@types/bun": "latest"
+    "@types/bun": "latest",
+    "oxlint": "^1.66.0"
   },
   "peerDependencies": {
     "typescript": "^5"
+  },
+  "dependencies": {
+    "got": "^15.0.5",
+    "tough-cookie": "^6.0.1",
+    "zod": "^4.4.3"
   }
 }
