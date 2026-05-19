@@ -1,5 +1,6 @@
 {
   "name": "@oof2win2/qbittorrent-api",
+  "version": "0.0.1",
   "module": "src/index.ts",
   "type": "module",
   "scripts": {
